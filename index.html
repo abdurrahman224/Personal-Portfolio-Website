@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-[#090E16] text-white">
+    <!-- Navbar Section -->
+ <!-- navbder-section --> <header class="mb-0"> 
+  <nav> 
+    <div class="navbar bg-[#090E16] shadow-sm"> 
+      <div class="navbar-start w-full"> 
+        <div class="drawer drawer-end md:hidden bg-[#090E16]"> 
+          <input id="my-drawer-4" type="checkbox" class="drawer-toggle" /> 
+          <div class="drawer-end"> 
+            <!-- Page content here --> 
+            <label for="my-drawer-4" class="drawer-button btn "> 
+              <div tabindex="0" role="button" class="btn btn-ghost btn-circle"> 
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" > 
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /> 
+                </svg> 
+              </div>
+            </label> 
+          </div>
+          <div class="drawer-side "> 
+            <label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay">
+
+            </label> 
+            <ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4 "> 
+              <!-- Sidebar content here --> 
+               <li><a>Home</a></li> 
+               <li><a>About me</a></li> 
+               <li><a>Skills</a></li> 
+               <li><a>Portfolio</a></li> 
+              
+              </ul> 
+          </div> 
+        </div> 
+        <div class="navbar-start"> 
+          <a class="btn btn-ghost text-[#7B4AE2] text-xl animate-pulse">Abdur Rahman </a> 
+        
+        </div> 
+        <div class="navbar-center "> 
+          <ul class=" hidden md:flex justify-center gap-18 text-[#7B4AE2] "> 
+            <li><a>Home</a></li> 
+            <li><a>About me</a></li> 
+            <li><a>Skills</a></li> 
+            <li><a>Portfolio</a></li> 
+          </ul> 
+        </div> 
+        <div class="navbar-end"> 
+          <button class="btn btn-ghost text-[#7B4AE2] btn-circle"> 
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" > <!-- <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /> --> </svg> 
+          </button> 
+          <button class="btn btn-ghost text-[#7B4AE2] animate-pulse btn-circle"> <div class="indicator"> <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" > <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /> </svg> <span class="badge badge-xs badge-primary indicator-item" >
+
+          </span> 
+        </div> 
+          </button> 
+        </div> 
+      </div> 
+    </nav> 
+  </header>
+
+    <!-- Hero Section -->
+    <section class="border-b border-gray-500">
+      <div
+        class="container mx-auto max-w-7xl flex flex-col md:flex-row items-center p-6 md:p-20"
+      >
+        <!-- Text -->
+        <div class="w-full md:w-1/2 text-center md:text-left mb-10 md:mb-0">
+          <h2 class="text-3xl md:text-5xl mb-5">
+            <i class="fa-regular fa-hand -rotate-45 text-orange-400"></i> I am
+          </h2>
+          <h1
+            class="text-4xl md:text-8xl font-bold animate-pulse text-[#7B4AE2] mb-5"
+          >
+            Abdur Rahman
+          </h1>
+          <h3 class="text-[#7B4AE2] mb-6 md:mb-10">Front-end developer</h3>
+          <p class="text-xl md:text-3xl leading-relaxed">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde,
+            modi. Quo voluptate facere sequi quae, deleniti perspiciatis sed
+            ipsam labore illo modi, magnam fuga distinctio ipsum nostrum ut
+            numquam illum.
+          </p>
+        </div>
+
+        <!-- Image -->
+        <div class="w-full md:w-1/2">
+          <img
+            src="https://cdn.pixabay.com/photo/2020/07/11/18/19/bird-5394906_960_720.jpg"
+            class="mx-auto max-w-[300px] md:max-w-[400px] rounded-lg shadow-xl/30"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="border-b border-gray-500 pb-16">
+      <div
+        class="text-center pt-20 flex flex-col md:flex-row justify-center items-center gap-10 container mx-auto max-w-7xl"
+      >
+        <!-- Image -->
+        <div>
+          <img
+            src="https://cdn.pixabay.com/photo/2020/07/11/18/19/bird-5394906_960_720.jpg"
+            class="mx-auto w-full max-w-[300px] md:max-w-[500px] rounded-lg shadow-xl/30"
+          />
+        </div>
+
+        <!-- Text -->
+        <div class="w-full md:w-1/2 p-6 md:p-10 text-left">
+          <h2 class="font-bold text-[#7B4AE2] text-4xl md:text-6xl mb-5">
+            Abdur Rahman
+          </h2>
+          <h3 class="text-2xl md:text-3xl text-amber-100 mb-8">
+            Front-end developer
+          </h3>
+          <p class="text-amber-50 leading-relaxed">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+            asperiores repellat repudiandae explicabo ea! ...
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="border-b border-gray-500 pb-20 text-center">
+      <div class="py-16 ">
+        <h2
+          class="text-5xl font-bold text-amber-300 border-4 inline-block px-6 py-2 hover:bg-[#7B4AE2]"
+        >
+          SKILLS
+        </h2>
+      </div>
+      <ul class="flex flex-wrap justify-center items-center gap-8 p-6">
+        <li>
+          <i
+            class="fa-brands fa-html5 text-5xl md:text-7xl animate-pulse text-[#7B4AE2]"
+          ></i>
+        </li>
+        <li>
+          <i
+            class="fa-brands fa-css3 text-5xl md:text-7xl animate-pulse text-[#7B4AE2]"
+          ></i>
+        </li>
+        <li>
+          <i
+            class="fa-solid fa-wind text-5xl md:text-7xl animate-pulse text-[#7B4AE2]"
+          ></i>
+        </li>
+        <li>
+          <i
+            class="fa-brands fa-js text-5xl md:text-7xl animate-pulse text-[#7B4AE2]"
+          ></i>
+        </li>
+        <li>
+          <i
+            class="fa-brands fa-node-js text-5xl md:text-7xl animate-pulse text-[#7B4AE2]"
+          ></i>
+        </li>
+        <li>
+          <i
+            class="fa-brands fa-react text-5xl md:text-7xl animate-pulse text-[#7B4AE2]"
+          ></i>
+        </li>
+        <li>
+          <i
+            class="fa-brands fa-github text-5xl md:text-7xl animate-pulse text-[#7B4AE2]"
+          ></i>
+        </li>
+        <li>
+          <i
+            class="fa-brands fa-git-alt text-5xl md:text-7xl animate-pulse text-[#7B4AE2]"
+          ></i>
+        </li>
+      </ul>
+    </section>
+    <!-- Projetos Section -->
+    <section class="pt-20 pb-20 border-b border-gray-500 text-center">
+<div class=" mx-auto max-w-7x ">
+        <h2
+        class="uppercase text-5xl font-bold text-amber-300 border-4 inline-block px-6 py-2 hover:bg-[#7B4AE2] mb-10"
+      >
+        Projetos
+      </h2>
+      <div
+        class="flex flex-col md:flex-row flex-wrap justify-center items-stretch gap-8 px-6 "
+      >
+        <div
+          class="bg-[#263138] p-6 rounded-3xl hover:bg-[#7B4AE2] flex-1 min-w-[250px] py-8"
+        >
+          <h3 class="text-3xl md:text-5xl mb-4 text-[#445964]">Cargo</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div
+          class="bg-[#445964] p-6 rounded-3xl hover:bg-[#7B4AE2] flex-1 min-w-[250px]"
+        >
+          <h3 class="text-3xl md:text-5xl mb-4 text-[#263138]">.Cargo</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div
+          class="bg-[#263138] p-6 rounded-3xl hover:bg-[#7B4AE2] flex-1 min-w-[250px]"
+        >
+          <h3 class="text-3xl md:text-5xl mb-4 text-[#445964]">.Cargo</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div
+          class="bg-[#445964] p-6 rounded-3xl hover:bg-[#7B4AE2] flex-1 min-w-[250px]"
+        >
+          <h3 class="text-3xl md:text-5xl mb-4 text-[#263138]">.Cargo</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+      </div>
+</div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#090E16] mt-20">
+      <div class="py-6">
+        <ul class="flex justify-center items-center gap-6 md:gap-10">
+          <li>
+            <i
+              class="fa-brands fa-facebook text-[#7B4AE2] text-3xl md:text-4xl hover:-translate-y-1 hover:scale-110 transition"
+            ></i>
+          </li>
+          <li>
+            <i
+              class="fa-brands fa-x-twitter text-[#7B4AE2] text-3xl md:text-4xl hover:-translate-y-1 hover:scale-110 transition"
+            ></i>
+          </li>
+          <li>
+            <i
+              class="fa-brands fa-instagram text-[#7B4AE2] text-3xl md:text-4xl hover:-translate-y-1 hover:scale-110 transition"
+            ></i>
+          </li>
+          <li>
+            <i
+              class="fa-brands fa-linkedin text-[#7B4AE2] text-3xl md:text-4xl hover:-translate-y-1 hover:scale-110 transition"
+            ></i>
+          </li>
+          <li>
+            <i
+              class="fa-brands fa-github text-[#7B4AE2] text-3xl md:text-4xl hover:-translate-y-1 hover:scale-110 transition"
+            ></i>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
